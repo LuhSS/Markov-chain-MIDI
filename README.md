@@ -13,8 +13,8 @@ pip install -r requirements.txt
 
 Para gerar uma música baseada em um único arquivo MIDI ou uma pasta:
 ~~~sh
-python generate.py seuMIDIfile.mid
-python generate.py suaPasta/*.mid
+python3 markov.py seuMIDIfile.mid
+python3 markov.py suaPasta/*.mid
 ~~~
 
 #### Argumentos Disponíveis
@@ -34,11 +34,11 @@ python generate.py suaPasta/*.mid
 ## Reproduzir Resultados
 Ex1:
 ~~~sh
-python generate.py pastaComODataset/*.mid -s 865 -o 5
+python3 markov.py pastaComODataset/*.mid -s 5468 -o 5
 ~~~
 Ex2:
 ~~~sh
-python generate.py pastaComODataset/*.mid -s 500
+python3 markov.py pastaComODataset/*.mid -s 500
 ~~~
 
 Os outros exemplos foram gerados com seeds desconhecidas.
